@@ -31,11 +31,9 @@ sudoku
 |  |- setting.h
 |
 |- np
-|  |- demo1.dat
-|  |- demo2.dat
-|  |- save
-|
-|- logfile
+   |- demo1.dat
+   |- demo2.dat
+   |- save
 ```
 
 + コンパイル後

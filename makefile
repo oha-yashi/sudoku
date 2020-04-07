@@ -62,5 +62,6 @@ clean:
 
 # log.cコンパイル
 log: log.o calc.o fileio.o menu.o setting.o
+	-mkdir -p logdata
 	${CC} -o $@ $^ ${LDLIBS}
 	@rm ${OBJS} log.o
